@@ -2,8 +2,10 @@ footer{
     font-size: 14px;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    border: 1px solid #e4e4e4;
-    padding:10px 5px;
+    border-top: 1px solid #e4e4e4;
+    padding:20px 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 #f1,#f2,#f3,#f4,#f5,#f6{
     color: #5f6368;
