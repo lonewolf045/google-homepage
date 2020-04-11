@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-
 <html>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <link href = "styles/header.css" rel = "stylesheet">
+        <link href = "styles/main.css" rel = "stylesheet">
+        <link href = "styles/footer.css" rel = "stylesheet">
+    </head>
 </html>
 <body>
     <header>
         <div class="navbar" style="display:flex;" >
-            <div class="left-side">
-                <a style="text-decoration:none;" href="#" id="nav1">About</a>
-                <a style="text-decoration:none;" href="#" id="nav2">Store</a>
-            </div>
-            <div class="right-side">
-                <a style="text-decoration: none;" href="#" id="nav3">Gmail</a>
-                <a style="text-decoration: none;" href="#" id="nav4">Images</a>
-                <a style="text-decoration: none;" href="#" id="nav5"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5c79b53104286350d0888c9f/images/5c9aa16f0428633d2cf4156c/file-iuhJi07D17.png" style="width: 24px; height: 24px;"></a>
-            </div>
+            <ul class="left-side">
+                <li><a style="text-decoration:none;" href="#" id="nav1">About</a></li>
+                <li><a style="text-decoration:none;" href="#" id="nav2">Store</a></li>
+            </ul>
+            <ul class="right-side">
+                <li><a style="text-decoration: none;" href="#" id="nav3">Gmail</li>
+                <li><a style="text-decoration: none;" href="#" id="nav4">Images</li>
+                <li><a style="text-decoration: none;" href="#" id="nav5"><img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/5c79b53104286350d0888c9f/images/5c9aa16f0428633d2cf4156c/file-iuhJi07D17.png" style="width: 24px; height: 24px;"></a></li>
+                <li><input type="button" value="Sign In" id="sign-in"></li>
+            </ul>
         </div>
     </header>
     <main>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div>
-            <img src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png" style="width: 24px; height: 24px;">
-            <input type="text" id="search" placeholder="Search Google or type a URL" name="search">
-            <img src="https://i.ya-webdesign.com/images/_color_272x92dp-png-no-repeat-background-size-272px-92px-height-92px-width-272px-5.png" style="width: 24px; height: 24px;">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="google-image">
+        <div id="search-bar">
+            <div id="search-s">
+                <img id="search-symbol" src="https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png" style="width: 24px; height: 24px;">
+                <input type="text" id="search" placeholder="Search Google or type a URL" name="search">
+            </div>
+            <div id="mic-s">
+                <img src="https://i.ya-webdesign.com/images/_color_272x92dp-png-no-repeat-background-size-272px-92px-height-92px-width-272px-5.png" style="width: 24px; height: 24px;" id="mic">
+            </div>
         </div>
     </main>
     <footer>
-
+        <div class="footbar" style="display:flex;" >
+            <div class="left-sidefoot">
+                <a style="text-decoration:none;" href="#" id="f1">Advertising</a>
+                <a style="text-decoration:none;" href="#" id="f2">Business</a>
+                <a style="text-decoration:none;" href="#" id="f3">How Search works</a>
+            </div>
+            <div class="right-sidefoot">
+                <a style="text-decoration: none;" href="#" id="f4">Gmail</a>
+                <a style="text-decoration: none;" href="#" id="f5">Terms</a>
+                <a style="text-decoration: none;" href="#" id="f6">Settings</a>
+            </div>
+        </div>   
     </footer>
 </body>
